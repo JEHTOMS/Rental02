@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent-project</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/Logo.svg"/>
+                </a>
+            </div>
+            <div class="nav-buttons">
+                <button class="tertiary-button"> Save & exit</button>
+                <button class="tertiary-button"> Need help?</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-content">
+        <div class="content-container">
+            <fieldset class="options">
+                <legend class="h1">What kind of property would you like to list?</legend>
+                <label class="option-container" id="option-1">
+                    <span class="label">
+                        <img class="icon" src="./assets/Frame 61.svg">
+                        <span class="label-texts">
+                            <h3 class="label-heading">An entire house</h3>
+                            <p class="description">The person(s) would have the whole flat to themselves</p>
+                        </span>
+                    </span>
+                    <input type="radio" name="property-options">  
+                </label> 
+                <div class="seperator"></div>
+                <label class="option-container" id="option-2">
+                    <span class="label">
+                        <img class="icon" src="./assets/Frame 61-1.svg">
+                        <span class="label-texts">
+                            <h3 class="label-heading">Rooms</h3>
+                            <p class="description">Private rooms within a shared home, with access to common areas.</p>
+                        </span>
+                    </span>
+                    <input type="radio" name="property-options" checked>  
+                </label> 
+                <div class="seperator"></div>
+                <label class="option-container" id="option-2">
+                    <span class="label">
+                        <img class="icon" src="./assets/Frame 61-2.svg">
+                        <span class="label-texts">
+                            <h3 class="label-heading">Shortlet</h3>
+                            <p class="description">Exclusive use of the entire space for a short-term stay.</p>
+                        </span>
+                    </span>
+                    <input type="radio" name="property-options">  
+                </label> 
+            </fieldset>
+        </div>
+
+    </section>
+
+    <footer class="progress">
+    <div class="footer-container">
+        <fieldset class="progress-group">
+            <legend class="captions"> Add photo</legend>
+        <span class="pro-container">
+            <a href="./index.html"><button class="numbers" id="button1">1</button></a>
+            <span class="progress-bar-container">
+            <div class="progress-bar" id="bar1"></div>
+            <div class="progress-bar" id="bar1"></div>
+            <div class="progress-bar" id="bar1"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+            </span>
+            <a href=""><button class="numbers">2</button></a>
+            <a href=""><button class="numbers">3</button></a>
+            <a href=""><button class="numbers">4</button></a>
+            <a href=""><button class="numbers">5</button></a>
+        </span>
+        </fieldset>
+        <div class="footer-buttons">
+            <button class="secondary-button"> Previous</button>
+            <button class="primary-button"> Next</button>
+        </div>
+    </div>
+    </footer>
+</main>
+</body>
+</html>
