@@ -28,55 +28,36 @@
     <section class="page-content">
         <div class="content-container">
             <fieldset class="options">
-                <legend class="h1">What kind of property would you like to list?</legend>
-                <label class="option-container" id="option-1">
-                    <span class="label">
-                        <img class="icon" src="./assets/Frame 61.svg">
-                        <span class="label-texts">
-                            <h3 class="label-heading">An entire house</h3>
-                            <p class="description">The person(s) would have the whole flat to themselves</p>
-                        </span>
-                    </span>
-                    <input type="radio" name="property-options">  
-                </label> 
-                <div class="seperator"></div>
-                <label class="option-container" id="option-2">
-                    <span class="label">
-                        <img class="icon" src="./assets/Frame 61-1.svg">
-                        <span class="label-texts">
-                            <h3 class="label-heading">Rooms</h3>
-                            <p class="description">Private rooms within a shared home, with access to common areas.</p>
-                        </span>
-                    </span>
-                    <input type="radio" name="property-options" checked>  
-                </label> 
-                <div class="seperator"></div>
-                <label class="option-container" id="option-2">
-                    <span class="label">
-                        <img class="icon" src="./assets/Frame 61-2.svg">
-                        <span class="label-texts">
-                            <h3 class="label-heading">Shortlet</h3>
-                            <p class="description">Exclusive use of the entire space for a short-term stay.</p>
-                        </span>
-                    </span>
-                    <input type="radio" name="property-options">  
-                </label> 
+                <legend><span class="form-label">
+                    <h1 class="heading1">What are the things the building have?</h1>
+                    <p class="heading-description">Select up to two features, so we could get your description started.</p></span></legend>
+                <div class="set-of-chips">
+                    <button class="chip"><img src="./assets/Tv.svg"/> Television</button>
+                    <button class="chip"><img src="./assets/icon_line/Shield_done.svg"/> Security</button>
+                    <button class="chip"><img src="./assets/Wifi.svg"/> Wi-fi</button>
+                    <button class="chip"><img src="./assets/Charger--Streamline-Ultimate.svg"/> Electricity</button>
+                    <button class="chip"><img src="./assets/Frame 76.svg"/> Parking</button>
+                    <button class="chip"><img src="./assets/Aperture.svg"/> Washing-machine</button>
+                </div>
+                <div class="other-features">
+                    <label class="label-heading" for="others">Any other features?</label>
+                    <textarea id="others" name="other-text" placeholder="Type here.."></textarea>
+                </div>
             </fieldset>
         </div>
-
     </section>
 
     <footer class="progress">
     <div class="footer-container">
         <fieldset class="progress-group">
-            <legend class="captions"> About apartment</legend>
+            <legend class="captions">About apartment</legend>
         <span class="pro-container">
             <a href="./index.html" class="number-wrapper"><button class="numbers" id="button1">1</button></a>
             <span class="progress-bar-container">
             <div class="progress-bar" id="bar1"></div>
             <div class="progress-bar" id="bar1"></div>
             <div class="progress-bar" id="bar1"></div>
-            <div class="progress-bar"></div>
+            <div class="progress-bar"id="bar1"></div>
             <div class="progress-bar"></div>
             <div class="progress-bar"></div>
             </span>
@@ -88,7 +69,7 @@
         </fieldset>
         <div class="footer-buttons">
             <button class="secondary-button"> Previous</button>
-            <a href="./Next form.html"><button type="submit" class="primary-button"> Next</button></a>
+            <button class="primary-button"> Next</button>
         </div>
     </div>
     </footer>
