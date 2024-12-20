@@ -247,14 +247,29 @@ a{
     display: flex;
     align-items: center;
     gap: 8px;
-    border: 1px solid #CDCDCD ;
+    border: 1px solid #CDCDCD;
     border-radius: 200px;
-    padding: 12px 24px;
+    padding: 12px 16px;
     font-size: 2rem;
     font-weight: 500;
     background-color: #FFFFFF;
 }
 
+.chip:hover{
+    background-color: #F4F4F4;
+}
+.chip:active{
+    background-color: #F4F4F4;
+    outline: 1px solid #0471e6;
+    color:#0471e6;
+    border: 1px solid #0471e6;
+}
+.chip:focus{
+    background-color: #F4F4F4;
+    outline: 1px solid #0471e6;
+    color:#0471e6;
+    border: 1px solid #0471e6;
+}
 .other-features{
     display: flex;
     flex-direction: column;
